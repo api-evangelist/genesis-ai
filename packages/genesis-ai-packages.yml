@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: https://pypi.org/project/genesis-world/
+notes: >-
+  Genesis AI publishes no hosted web API or client SDK for its GENE model / Eno
+  robot (pre-product, waitlist). Its public developer surface is the open-source
+  Genesis World multi-physics simulation platform, distributed first-party as the
+  `genesis-world` Python package on PyPI and developed in the open under the
+  Genesis-Embodied-AI GitHub org (org display name "Genesis AI", org blog
+  https://genesis.ai).
+packages:
+- language: python
+  registry: pypi
+  name: genesis-world
+  version: 1.2.3
+  url: https://pypi.org/project/genesis-world/
+  install: pip install genesis-world
+  source_code: https://github.com/Genesis-Embodied-AI/genesis-world
+  docs: https://genesis-world.readthedocs.io/en/latest/
+  summary: A universal and generative physics engine for general-purpose robotics and embodied AI.
+  requires_python: '>=3.10,<3.14'
+  official: true

@@ -1,9 +1,30 @@
 aid: genesis-ai
-name: Genesis Ai
-description: 'Genesis Ai is a company surfaced as a portfolio company of northzone and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise; ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+name: Genesis AI
+description: >-
+  Genesis AI is a physical-AI company building a universal robotics foundation
+  model and a full-stack platform for general-purpose robots. Founded in 2024 by
+  Zhou Xian and Théophile Gervet, it emerged from stealth in July 2025 with $105M
+  in seed funding from Eclipse, Khosla Ventures, Bpifrance, HSG, Eric Schmidt, and
+  Xavier Niel. Its stack spans the GENE vision-language-action foundation model
+  (GENE-26.5), the Eno general-purpose robot, and Genesis World, a multi-physics
+  simulation platform that generates synthetic training data and is developed in
+  the open as the `genesis-world` Python package. The company is pre-product with
+  customer deployments targeted for the end of 2026; its primary public developer
+  surface today is the open-source Genesis simulation stack on PyPI, GitHub, and
+  Read the Docs rather than a hosted web API.
 url: https://raw.githubusercontent.com/api-evangelist/genesis-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.datocms-assets.com/199265/1781542957-genesis-eno-lab-alameda-ca-06082026-dropping.png?auto=format&fit=max&w=1200
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise; Ai
+- Robotics
+- Artificial Intelligence
+- Physical AI
+- Foundation Models
+- Simulation
+- Embodied AI
+- Robotics Foundation Model
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +52,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://genesis-ai.company
+  url: https://www.genesis.ai
+- type: Documentation
+  url: https://genesis-world.readthedocs.io/en/latest/
+- type: APIReference
+  url: https://genesis-world.readthedocs.io/en/latest/api_reference/index.html
+- type: GettingStarted
+  url: https://genesis-world.readthedocs.io/en/latest/user_guide/index.html
+- type: GitHubOrganization
+  url: https://github.com/Genesis-Embodied-AI
+- type: Blog
+  url: https://www.genesis.ai/blog
+- type: SignUp
+  url: https://www.genesis.ai/
+- type: PrivacyPolicy
+  url: https://www.genesis.ai/privacy
+- type: Packages
+  url: packages/genesis-ai-packages.yml
+- type: SDKs
+  url: packages/genesis-ai-packages.yml
+- type: DomainSecurity
+  url: security/genesis-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
