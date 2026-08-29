@@ -13,6 +13,17 @@ description: >-
   surface today is the open-source Genesis simulation stack on PyPI, GitHub, and
   Read the Docs rather than a hosted web API.
 url: https://raw.githubusercontent.com/api-evangelist/genesis-ai/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
